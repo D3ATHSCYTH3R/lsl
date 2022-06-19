@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            RECOGNIZE ANYTHING
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="style.css">
+       <script 
+    </head>
+    <body>
+        <center>
+<h2>MY RECOGNIZER</h2>
+
+        <div>
+                    <p>Here are the options</p>
+        <b id="f4">
+            <hr>
+            <h4>FRIEND</h4>
+            <hr>
+            <h4>ME</h4>
+            <hr>
+            <h4>PET</h4>
+            <hr>
+        </b>
+        <div id="cam"></div>
+        <div id="output"></div>
+        </div>
+        <button class="btn btn-success" onclick="take()">TAKE</button>
+        <button class="btn btn-info" onclick="identify()">IDENTIFY</button>
+        
+        <div>
+            <span><h4>Object= </h4><h4 id="c1"></h4></span>
+            <span><h4>Chance= </h4><h4 id="c2"></h4></span>
+        </div>
+        </center>
+        
+    </body>
+</html>

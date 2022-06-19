@@ -1,0 +1,13 @@
+#cam{
+    border: 3px double gold;
+    width: 450px;
+    height: 400px;
+}
+#output{
+    border: 3px double gold;
+    width: 450px;
+    height: 400px;
+}
+body{
+    background: linear-gradient(limegreen, rgb(18, 238, 18))
+}
